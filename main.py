@@ -47,7 +47,7 @@ def remove_Es(a_string):
     """
     # Write your code here
     end_str = ''
-    for i in string:
+    for i in a_string:
         if i not in 'eE':
             end_str += i
     return end_str        
